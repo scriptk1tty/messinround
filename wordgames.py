@@ -1,7 +1,7 @@
 import random
 
 def get_random_word():
-    words = ["adventure time", "sleep", "desktop", "nausicca", "valley", "wind", "neopets"]
+    words = ["adventure time", "sleep", "desktop", "nausicaa", "valley", "wind", "neopets"]
     word = words[random.randint(0, len(words))-1]
     return word
 
