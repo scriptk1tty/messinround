@@ -9,12 +9,13 @@ found = False
 
 while not found:
     print ("Can you guess how many children I have?")
-    guess = input()
-    if guess == str(childrenAmount):
+    guess = int(input())
+    if int(guess) == childrenAmount:
         found = True
         print("That's right! Can you believe it?")
-    if guess > str(childrenAmount):
+    if guess > childrenAmount:
         print("Do I look like I've had that many children?!")
-    if guess < str(childrenAmount):
+    if guess < childrenAmount:
         print("No, I've had a couple more than that.")
-        
+
+
